@@ -42,30 +42,22 @@ table {
 
 /* THE TEXT*/
 h2 {
-	font-size: 36px;
-	font-family: "Roboto Medium";
-	font-weight: normal;
+	font: 36px "Roboto Medium" normal;
 }
 
 h3 {
-	font-family: "Roboto Medium";
-	font-size: 18px;	
+	font: 18px "Roboto Medium" normal;
 	margin-top: 27px;
 	text-transform: uppercase;
-	font-weight: normal;
 }
 
 h4 {
-	font-family: "Roboto Medium";
-	font-weight: normal;	
-	font-size: 16px;
+	font: 16px "Roboto Medium" normal;
 	text-transform: uppercase;
 }
 
 p {
-	font-family: "Roboto Light";
-	font-size: 16px;
-	line-height: 22px;
+	font: 16px/22px "Roboto Light";
 }
 
 b {
@@ -91,10 +83,9 @@ b {
 
 .menu-item {
 	list-style: none;
-	margin-left: 0;
 	display: inline-block;
 	font-size: 14px;
-	margin-right: 44px;
+	margin: 0 44px 0 0;
 }
 .menu-item:hover {
 	color: #fb565a;
@@ -180,16 +171,14 @@ b {
 	display: block;
 	margin-top: 29px;
 	text-decoration: none;
-	font-family: "Roboto Medium";
+	font: 18px/38px "Roboto Medium";
 	text-align: center;
 	width: 280px;
 	height: 38px;
 	vertical-align: middle;
-	line-height: 38px;
 	background-color: #fb565a;
 	color: white;
 	border-radius: 3px;
-	font-size: 18px
 }
 
 .turner {
@@ -230,8 +219,7 @@ b {
 
 /* FEATURES */
 .features {
-	padding-top: 80px;
-	padding-bottom: 80px;
+	padding: 80px 0;
 	border-bottom: 2px solid #eeeeee;
 	font-size: 0px;
 	vertical-align: top;
@@ -272,9 +260,8 @@ b {
 	background-color: #FB565A;
 	color: white;
 	height: 38px;
-	line-height: 38px;
 	vertical-align: middle;
-	font-family: "Roboto Light";
+	font: 18px/38px "Roboto Light";
 	border-radius: 3px;
 	margin-top: 27px;
 	font-size: 18px;
@@ -333,8 +320,7 @@ b {
 	padding-left: 35px;
 	background: url(images/Layer-23-copy-3.png) no-repeat 0 50%;
 	margin-bottom: 30px;
-	font-size: 16px;
-	font-family: "Roboto Light";
+	font: 16px "Roboto Light";
 	text-align: left
 }
 
@@ -372,10 +358,9 @@ b {
 }
 
 .info {
-	font-size: 16px;
 	text-transform: uppercase;
 	text-align: center;
-	font-family: "Roboto Medium";
+	font: 16px "Roboto Medium";
 	margin-top: 20px;
 	background: url(images/divide-copy.png) no-repeat 0 50%;
 }
@@ -383,8 +368,7 @@ b {
 
 /* OUR CLIENTS*/
 .clients {
-	padding-top: 36px;
-	padding-bottom: 36px;
+	padding: 36px 0;
 	border-bottom: 2px solid #eee;
 	font-size: 0px;
 	vertical-align: middle;
@@ -432,14 +416,11 @@ b {
 	position: absolute;
 	background-color: #fff;
 	padding: 20px 31px;
-	font-family: "Roboto Light";
-	font-weight: normal;
 	left: 160px;
 	top: 88px
 }
 
 .map h4 {
-	font-weight: normal;
 	font-family: "Roboto Light";
 	margin-bottom: 24px;
 }
@@ -458,7 +439,8 @@ b {
 	height: 38px;
 	text-align: center;
 	line-height: 38px;
-	border-radius: 3px
+	border-radius: 3px;
+	font-family: "Roboto Light";
 }
 .map a:hover {
 	background-color: #d6494d;
